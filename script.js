@@ -1,3 +1,6 @@
+// QUESTIONS AND ANSWERS
+// OPTION ONE: TARGETTING IDs
+// QUESTION ONE
 let questionOne = document.querySelector('#questionOne'); 
 questionOne.addEventListener('click', function onClick(event){
             let answerOneElement = document.querySelector('#answerOne'); 
@@ -61,3 +64,11 @@ questionFour.addEventListener('click', function(event){
                 iconFourElement.setAttribute('src', '/assets/images/icon-plus.svg'); 
              }
 }); 
+
+// OPTION TWO: REUSABLE FUNCTION
+
+// toggleAnswer = (questionElement, answerElement, iconElement) => {
+//              let questionElement = document.querySelector('.button'); 
+//              let answerElement = document.querySelector('.answer')
+
+// }
