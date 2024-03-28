@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./Screenshot_Desktop.jpg)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -52,7 +52,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Query selectors, and identifying each element and its style or property in the DOM 
+Query selectors and identifying each element and its style or property in the DOM 
 
 
 <!-- HTML -->
@@ -75,7 +75,7 @@ Query selectors, and identifying each element and its style or property in the D
   </div>
 ```
 <!-- CSS -->
-/* QUESTIONS */
+  ```
 .questions {
     display: flex;
     flex-direction: column;
@@ -84,7 +84,7 @@ Query selectors, and identifying each element and its style or property in the D
     font-weight: 600;
     gap: 3rem;
 }
-/* QUESTION WRAPPERS*/
+
 .question-wrapper {
     display: flex;
     flex-direction: row;
@@ -108,6 +108,8 @@ Query selectors, and identifying each element and its style or property in the D
     /* border-bottom: solid rgb(248, 4, 4) 1px; */
   }
   ```
+ ```
+
   <!-- JS -->
   let questionOne = document.querySelector('#questionOne'); 
 questionOne.addEventListener('click', function onClick(event){
