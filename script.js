@@ -10,10 +10,10 @@ questionOne.addEventListener('click', function onClick(event){
             //  FUNCTION ONE
             if (answerOneDisplay === 'none'){
                 answerOneElement.style.display = 'block'; 
-                iconOneElement.setAttribute('src', '/assets/images/icon-minus.svg'); 
+                iconOneElement.setAttribute('src', 'icon-minus.svg'); 
             }   else {
                 answerOneElement.style.display = 'none'; 
-                iconOneElement.setAttribute('src', '/assets/images/icon-plus.svg')
+                iconOneElement.setAttribute('src', 'icon-plus.svg')
             }
 }); 
 
@@ -27,10 +27,10 @@ questionTwo.addEventListener('click', function onClick(event){
             let iconTwoElement = document.querySelector('#iconTwo'); 
             if (answerTwoDisplay === 'none'){
                 answerTwoElement.style.display = 'block'; 
-                iconTwoElement.setAttribute('src', '/assets/images/icon-minus.svg'); 
+                iconTwoElement.setAttribute('src', 'icon-minus.svg'); 
             }   else {
                 answerTwoElement.style.display = 'none'; 
-                iconTwoElement.setAttribute('src', '/assets/images/icon-plus.svg'); 
+                iconTwoElement.setAttribute('src', 'icon-plus.svg'); 
             }
 })
 // QUESTION THREE
@@ -43,10 +43,10 @@ questionThree.addEventListener('click', function onClick(event){
               //  FUNCTION THREE
               if (answerThreeDisplay === 'none') {
                   answerThreeElement.style.display = 'block'; 
-                  iconThreeElement.setAttribute('src', '/assets/images/icon-minus.svg'); 
+                  iconThreeElement.setAttribute('src', 'icon-minus.svg'); 
               }   else {
                   answerThree.style.display = 'none'; 
-                  iconThreeElement.setAttribute('src', '/assets/images/icon-plus.svg'); 
+                  iconThreeElement.setAttribute('src', 'icon-plus.svg'); 
               }
 })
 // QUESTION FOUR
@@ -58,10 +58,10 @@ questionFour.addEventListener('click', function(event){
              //  FUNCTION FOUR
              if (answerFourDisplay === 'none') {
                 answerFourElement.style.display = 'block'; 
-                iconFourElement.setAttribute('src', '/assets/images/icon-minus.svg'); 
+                iconFourElement.setAttribute('src', 'icon-minus.svg'); 
              }  else {
                 answerFourElement.style.display = 'none'; 
-                iconFourElement.setAttribute('src', '/assets/images/icon-plus.svg'); 
+                iconFourElement.setAttribute('src', 'icon-plus.svg'); 
              }
 }); 
 
