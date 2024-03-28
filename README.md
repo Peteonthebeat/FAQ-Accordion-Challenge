@@ -126,9 +126,7 @@ questionOne.addEventListener('click', function onClick(event){
                 iconOneElement.setAttribute('src', '/assets/images/icon-plus.svg')
             }
 }); 
-  ``
-
-
+ ```
 ### Continued development
 I plan to re-do this challenge using reusable classes and arrow function(s)
 
@@ -137,11 +135,9 @@ I plan to re-do this challenge using reusable classes and arrow function(s)
 Codecademy, FCC
 
 ## Author
-
 - Website - [POTB](youtube.com/@potbtech)
 - Frontend Mentor - [@peteonthebeat](https://github.com/Peteonthebeat)
 
 
 ## Acknowledgments
-
 My girl — with the 'before' element. he
